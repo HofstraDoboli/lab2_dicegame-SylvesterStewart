@@ -1,0 +1,57 @@
+Introduction to GNU C++ Compiler
+
+
+Steps in writing and compiling a c++ program: 
+
+1. Write the program using a text editor (visual studio code, notepad++, emacs, etc.).
+
+Example: 
+
+File helloWorld.cpp 
+
+_________________________________________________________________
+     #include <iostream>  	// input/output library: cin, cout, <<, >>
+     using namespace std;	// use libraries from namespace std
+
+     int main()  		// main function contains all instructions the program
+     					// will run or execute. 
+     {
+		cout << "Hello World" << endl; // displays a message on the screen
+     }
+__________________________________________________________________
+
+2. Compile the program: At the prompt of a linux (cygwin) command window type:
+   
+   g++ -o helloWorld helloWorld.cpp
+
+   Examples of common compiler options: 
+
+   a. No options: g++ helloWorld.cpp
+      Compiles, assembles and links the program.
+      Produces an executable file called a.exe.
+
+    b. -o fileName option:
+      g++ -o hello helloWorld.cpp
+	
+      Compiles, assembles and links the program. 
+      
+      Produces an executable file called helloWorld.exe
+   c. -c option:
+      g++ -c helloWorld.cpp
+      
+      Compiles and assembles the program. No linking.
+      Produces an object file for each source file: 
+      helloWorld.o
+  
+  d. -S option: 
+      g++ -S helloWorld.cpp
+      
+      Compiles the program. 
+      Produces an assembler code file with suffix .s : 
+      helloWorld.s    
+
+3. Execute the program. 
+
+   ./hello
+
+

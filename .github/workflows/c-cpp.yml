@@ -1,0 +1,29 @@
+name: C/C++ CI  
+
+on:
+  workflow_dispatch:
+    branches: [ master ]
+  #push:
+  #  branches: [ master ]
+  #pull_request:
+  #  branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: make_all
+      run: make
+    - name: run_input
+      run: ./input
+    - name: run_dice
+      run: ./dice
+    - name: run_random
+      run: ./random
+
+    - name: clean
+      run: make clean
+    
