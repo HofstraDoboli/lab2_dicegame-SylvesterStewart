@@ -81,7 +81,7 @@ int main()
     output_file << "\nQ2: (cin + fail+ignore) What happens when you run the code above? Explain why." << endl;
     answer = "I entered 10 and it set the fail flag to false, then I entered 4.5 and it set the flag to false, but it shows that.5 was unread in the buffer \n, for abc and a it sets the fail flag to true and explains it is not an integer"; // enter your answer in between ""
     output_file << "Answer Q2: " << answer << endl;
-/*
+
     output_file << "\nQ3: Is the problem of reading an integer value solved? Explain your reasoning." << endl;
     answer = "No, because for 4.5 it set the flag to false and it extracted 4 without saying it is not an integer"; // enter your answer in between ""
     output_file << "Answer Q3: " << answer << endl;

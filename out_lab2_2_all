@@ -1,0 +1,76 @@
+Code for Q1
+	Enter the value 10
+	Enter an int 
+	Check fail flag in cin 0
+	You entered 10
+
+	Enter the value 4.5
+	Enter an int 
+	Check fail flag in cin 0
+	You entered 4
+
+	Enter the value abc
+	Enter an int 
+	Check fail flag in cin 1
+	You entered 0
+
+	Enter the value a
+	Enter an int 
+	Check fail flag in cin 1
+	You entered 0
+
+Check what is left unread in the cin buffer: .5
+Nr. characters left unred in cin buffer: 2
+
+Code for Q2 and Q3
+	Enter the value 10
+	Enter an int 
+	Check fail flag in cin 0
+	Check what is left unread in the cin buffer: Length =0	String 
+	You entered 10
+
+	Enter the value 4.5
+	Enter an int 
+	Check fail flag in cin 0
+	Check what is left unread in the cin buffer: Length =2	String .5
+	You entered 4
+
+	Enter the value abc
+	Enter an int 
+	Check fail flag in cin 1
+	Check what is left unread in the cin buffer: Length =0	String 
+	ERROR: The value you entered is not an integer. Try again.
+	You entered 0
+
+	Enter the value a
+	Enter an int 
+	Check fail flag in cin 1
+	Check what is left unread in the cin buffer: Length =0	String 
+	ERROR: The value you entered is not an integer. Try again.
+	You entered 0
+
+
+Code for Q5
+	Enter the value 10
+	Enter an int 	You entered 10
+
+	Enter the value 4.5
+	Enter an int 	You entered 4
+
+	Enter the value abc
+	Enter an int 	You entered 4
+
+	Enter the value a
+	Enter an int 	You entered 4
+
+
+	Check fail flag in cin 0
+
+Code for Q6
+	Enter the value 10
+	Enter an int 	Correct, you entered: 10
+	Enter the value 4.5
+	Enter an int 	Incorrect, you entered:4.5
+	Enter the value abc
+	Enter an int 	Enter the value a
+	Enter an int 

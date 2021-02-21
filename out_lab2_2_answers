@@ -1,0 +1,23 @@
+
+Q1: (cin only) What happens when you run the code above? Explain why
+Answer Q1: I entered 10 and the flag is false, but when I enter 4.5 it still sets the flag to false and it extracts the value 4, 
+ and it continues to loop without accepting any other values 
+
+Q2: (cin + fail+ignore) What happens when you run the code above? Explain why.
+Answer Q2: I entered 10 and it set the fail flag to false, then I entered 4.5 and it set the flag to false, but it shows that.5 was unread in the buffer 
+, for abc and a it sets the fail flag to true and explains it is not an integer
+
+Q4: (getline only) What happens when you run the code above? Explain why.
+Answer Q4: It allows you to enter the value for 10 and displays it, 
+ I then was able to enter 4.5 but it showed I entered 4, 
+ and then when I entered abc the program displayed an error message thrown by stoi function and then it terminates
+
+Q5: (getline+stoi) What happens when you run the code above? Explain why.
+Answer Q5: when you run the code you are able to enter 10 and it displays 10, then I entered 4.5, but it displays 4. Then when you enter abc and a then the program displays 4 and the error message from stoi. This is because the try and catch exception catches error and displays the message but it does not stop the program.
+
+Q6: Explain your method to validate integer values entered
+Answer Q6: My method to validate integer values entered is to have the user input the value,
+ then the input will be stored in a vairable s, after this
+ the string s will be looped through to check if there is a decimal point or fraction present.
+ if there is the code will print out it is incorrect and the value of s. If it does not find anything in the loop, the code will attempt to change the string to an integer and if it can it print it is correct and the value.
+ if it cannot the code will print it is incorrect and the value you entered.
