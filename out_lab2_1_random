@@ -1,0 +1,17 @@
+RAND_MAX value is 2147483647
+21625178	291703457	574832049	100050766	1833189221	584841916	909132906	510318663	1770938462	1499345789	
+Q1: What is the output of rand(). Why? 
+Answer Q1: The output is a sequence of 10 random number between 0 and the RAND_MAX
+
+3	1	0	1	1	0	1	3	2	3	
+Q2: What is the output of rand()%5. Why? 
+Answer Q2: It prints the remainder of each rand number when divided by 5 , and the output will be 10 numbers between 0 and 4
+
+7	5	6	7	5	6	7	4	7	6	
+Q3: What is the output of rand()%5+3. Why?
+Answer Q3: It will print 10 numbers between 3-7, since it will do the remainder of rand() divided by 5
+
+Q4: What is the output of the program when srand(time(NULL)) is removed. Why
+Answer Q4: the output of the program generates the same sequence of numbers twice when srand(time(NULL)) is removed. This is because srand(time(NULL)) creates different seeds for different runs, and when it is removed the algorithm uses the same seed value. 
+
+1	4	4	4	3	3	6	1	4	3	6	1	1	3	5	3	4	1	1	2	5	2	4	6	4	4	5	5	6	4	3	4	1	6	1	1	1	6	1	4	6	4	2	5	6	6	1	1	1	5	

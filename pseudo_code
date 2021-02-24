@@ -1,1 +1,24 @@
 Add your steps (pseudo-code) for the dice game here.
+variables: userInput, roll, num1, num2, sum1, sum2, playersPoint, nrProblems, nrCProblems, nrICProblems, rollNr
+I would accept a userInput that would have to be set  to y to start the game.
+     WHILE loop 
+     roll two numbers 
+     print out the two numbers
+     take the sum of the two numbers = sum1
+
+    IF the sum of the two numbers equaled 7 or 11 they win
+
+    ELSE IF the sum was equal to 2,3, or 11, they lose. 
+
+    then they would have the option to start the game over
+
+    ELSE the sum of the two numbers were something else, that number would become playersPoint
+    then they would use r, to roll
+    WHILE loop until either sum2 equals player point or sum was equal to 7 are reached.
+    roll two numbers 
+    sum in sum2
+    IF the sum of the roll was equal to the playerPoint they win
+    IF the sum of thr roll was equal to 7 they lose
+    
+    IF they want to play again choose y
+    ELSE choose any other key to stop playing
